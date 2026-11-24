@@ -225,6 +225,9 @@ def main():
     d.text((628, 452),
            "Wall Street's rebound, drawn as Monday's chart.",
            font=fnt(SERIF_I, 14), fill=SOFT)
+    d.text((628, 472),
+           "The White House confirmed Trump called into the board meeting.",
+           font=fnt(SERIF_I, 14), fill=SOFT)
 
     tx = MARGIN
     spaced(d, tx, 190, "MARKETS · NVIDIA", fnt(SANS_B, 19), RED, 3)
